@@ -1,6 +1,6 @@
 # Unsupervised Anomaly Detection with OC-SVM for Predictive Maintenance
 
-![tsne_temperature_colored](https://github.com/user-attachments/assets/01a92a36-56bc-4498-bcb7-664d78992131)
+
 This repository contains the Jupyter Notebooks developed as 
 part of my master’s thesis in Data Science at Universidad San Francisco de Quito (USFQ). The project focuses on applying **unsupervised learning techniques** for detecting anomalies in industrial rotating machinery using **One-Class Support Vector Machines (OC-SVM)**.
 
@@ -29,3 +29,31 @@ To do this, I applied OC-SVM models on preprocessed sensor data, evaluated diffe
 Master’s in Data Science  
 Universidad San Francisco de Quito – USFQ  
 April 2025
+
+The repository includes visual aids to support the interpretation of results. These are stored in the `figures/` folder and include:
+
+### 🔹 Correlation Heatmap
+A matrix of Pearson correlations across all sensor variables.
+![Correlation heatmap](figures/correlation_heatmap.png)
+
+---
+
+### 🔹 OC-SVM + t-SNE (Velocity data)
+t-SNE projection of the data using only velocity features. Green: normal data, Red: anomalies.
+![t-SNE velocity](figures/tsne_velocity_ocsvm.png)
+
+---
+
+### 🔹 OC-SVM + t-SNE (Acceleration data)
+A different view using acceleration features.
+![t-SNE acceleration](figures/tsne_acceleration_ocsvm.png)
+
+---
+
+### 🔹 Temperature-based t-SNE Visualizations
+Cluster structure and thermal variation are visualized using continuous color maps.
+![t-SNE temperature](figures/tsne_temperature_colored.png)
+
+![t-SNE temperature 2](figures/tsne_temperature_colored_2.png)
+
+---
