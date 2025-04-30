@@ -1,6 +1,8 @@
 # Unsupervised Anomaly Detection with OC-SVM for Predictive Maintenance
 
-This repository contains the Jupyter Notebooks developed as part of my master’s thesis in Data Science at Universidad San Francisco de Quito (USFQ). The project focuses on applying **unsupervised learning techniques** for detecting anomalies in industrial rotating machinery using **One-Class Support Vector Machines (OC-SVM)**.
+![tsne_temperature_colored](https://github.com/user-attachments/assets/01a92a36-56bc-4498-bcb7-664d78992131)
+This repository contains the Jupyter Notebooks developed as 
+part of my master’s thesis in Data Science at Universidad San Francisco de Quito (USFQ). The project focuses on applying **unsupervised learning techniques** for detecting anomalies in industrial rotating machinery using **One-Class Support Vector Machines (OC-SVM)**.
 
 ## Description
 
